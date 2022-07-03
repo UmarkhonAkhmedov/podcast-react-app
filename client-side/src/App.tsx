@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from "react-router-dom";
+import Navbar from './components/Navbar';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
@@ -11,6 +12,9 @@ import Podcasts from './pages/Podcasts';
 function App() {
   return (
     <div>
+      <div className='margin'>
+        <Navbar />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/host" element={<Host />} />

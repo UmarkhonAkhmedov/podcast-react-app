@@ -1,0 +1,126 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+
+  &__img {
+    img {
+      width: 132px;
+      height: 36px;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 768px){
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+    }
+
+    &--links {
+      li {
+        text-transform: capitalize;
+        margin-right: 30px;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+        padding: 5px 0;
+        &:hover {
+          color: #1AD993;;
+        }
+      }
+    }
+
+    &--icons {
+      margin-left: -20px;
+      li {
+        margin-left: 15px;
+        cursor: pointer;
+        
+        img {
+          width: 22px;
+          height: 22px;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+
+  &__mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 90vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+    @media screen and (max-width: 768px){
+      display: flex;
+    }
+    
+    ul:first-child {
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+      li {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    }
+    ul:nth-child(2){
+      margin-left: 0;
+      li {
+        margin-left: 0;
+        margin: 20px 20px 0 20px;
+      }
+    }
+  }
+
+  &__menu {
+    display: none;
+
+    @media screen and (max-width: 768px){
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 20px;
+      right: 40px;
+      transition: all 0.3s ease-in-out;
+      
+      img {
+        width: 27px;
+        height: 27px;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    @media screen and (max-width: 500px){
+      right: 20px;
+    }
+  }
+}
