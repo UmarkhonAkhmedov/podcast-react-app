@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { iconsData, navData } from './DummyData'
+import { iconsData, navData } from '../DummyData'
 
 function Navbar() {
   const [open, setOpen] = useState(false)
