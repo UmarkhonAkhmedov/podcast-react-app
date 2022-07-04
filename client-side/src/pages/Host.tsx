@@ -1,8 +1,11 @@
 import React from 'react'
+import Available from '../components/main/Available'
 
 function Host() {
   return (
-    <div>Host</div>
+    <div>
+      <Available />
+    </div>
   )
 }
 
