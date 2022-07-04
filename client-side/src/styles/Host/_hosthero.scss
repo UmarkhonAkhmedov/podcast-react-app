@@ -1,0 +1,88 @@
+.site--hostHero {
+  background-image: 
+    url("../../../public/Img/Host/hero__small--purple.svg"),
+    url("../../../public/Img/Host/hero__small--green.svg"),
+    url("../../../public/Img/Host/info__green.svg");
+    background-repeat: no-repeat;
+    background-position: 
+    left calc(20% + 20px) top 150px,
+    left calc(20% - 120px) top 350px,
+    right calc(20% - 100px) bottom 150px;
+    background-size: auto;
+
+    @media screen and (max-width:768px){
+      background-position: 
+        left calc(20% + 20px) top 100px,
+        left calc(20% - 0px) top 350px,
+        right calc(20% - 100px) bottom 150px;
+    }
+
+    @media screen and (max-width:500px){
+      background-position: 
+        left calc(20% - 20px) top 50px,
+        left calc(20% - 20px) top 350px,
+        right calc(20% - 70px) bottom 70px;
+    }
+}
+
+.hostHero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width:768px){
+    flex-direction: column;
+  }
+
+  &__img {
+    margin: 0 -60px -40px 0;
+    @media screen and (max-width:768px){
+      text-align: center;
+      margin: 0 -45px -10px 0;
+    }
+    @media screen and (max-width:500px){
+      margin: 0 -40px -10px 0;
+    }
+
+    img {
+      width: 90%;
+      @media screen and (max-width:768px){
+        width: 80%;
+      }
+      @media screen and (max-width:500px){
+        width: 70%;
+      }
+    }
+  }
+
+  &__info {
+    max-width: 380px;
+    width: 100%;
+
+    @media screen and (max-width:768px){
+      text-align: center;
+      max-width: 420px;
+    }
+    h6 {
+      color: #503AE7;
+      font-size: inherit;
+      font-weight: 600;
+    }
+
+    h2 {
+      margin: 30px 0;
+      @media screen and (max-width:500px){
+        margin: 10px 0;
+      }
+    }
+
+    p {
+      line-height: 23px;
+      margin-bottom: 40px;
+      @media screen and (max-width:500px){
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+}
