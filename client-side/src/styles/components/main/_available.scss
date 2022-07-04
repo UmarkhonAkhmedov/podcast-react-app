@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (max-width:500px){
+  @media screen and (max-width:768px){
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
@@ -17,6 +17,10 @@
     @media screen and (max-width:768px){
       font-size: 18px;
       margin-right: 10px;
+      margin-bottom: 15px;
+    }
+    @media screen and (max-width:500px){
+      margin-bottom: 0;
     }
   }
 
@@ -43,13 +47,13 @@
           width: 100%;
         }
       }
+
       @media screen and (max-width:500px){
         margin: 10px 5px 0 5px;
       }
 
       img {
         width: 90%;
-        
       }
     }
   }
