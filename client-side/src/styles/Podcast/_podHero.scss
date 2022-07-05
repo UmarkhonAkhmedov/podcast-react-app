@@ -1,0 +1,68 @@
+.site--podHero {
+  background-image: url("../../../public/Img/Podcasts/hero__background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.podHero {
+  display: flex;
+  background-color: #503AE7;
+  opacity: 0.9;
+  max-width: 700px;
+
+  &__line {
+    display: flex;
+    width: 25px;
+    background-color: #1AD993;
+  }
+
+  &__content {
+    padding: 80px 60px 80px 40px;
+    color: #ffffff;
+    @media screen and (max-width:768px){
+      padding: 60px 40px 60px 30px;
+    }
+    @media screen and (max-width:500px){
+      padding: 40px 30px 40px 20px;
+    }
+
+    h4 {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+      @media screen and (max-width:500px){
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+      }
+    }
+
+    p {
+      margin: 15px 0 30px 0;
+      line-height: 24px;
+      @media screen and (max-width:500px){
+        margin: 10px 0 20px 0;
+        line-height: 22px;
+      }
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      img {
+        margin-right: 8px;
+      }
+      span {
+        font-size: 17px;
+        font-weight: 600;
+      }
+      &:hover {
+        color: #1AD993;
+      }
+    }
+  }
+}

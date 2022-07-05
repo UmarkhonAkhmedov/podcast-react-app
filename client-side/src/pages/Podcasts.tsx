@@ -1,8 +1,11 @@
 import React from 'react'
+import PodHero from '../components/Podcast/PodHero'
 
 function Podcasts() {
   return (
-    <div>Podcasts</div>
+    <div>
+      <PodHero />
+    </div>
   )
 }
 
