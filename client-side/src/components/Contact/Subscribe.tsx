@@ -1,5 +1,5 @@
 import React from 'react'
-import BrandName from '../basic/BrandName'
+import BrandName from '../Basic/BrandName'
 import { brandData, socialsData } from '../DummyData'
 
 function Subscribe() {

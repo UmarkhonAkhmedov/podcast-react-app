@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../basic/Button'
+import Button from '../Basic/Button'
 
 type Props = {
   heading: string
@@ -29,7 +29,7 @@ function Hero({ heading, text, input, buttonText, img, space }: Props) {
           )}
         </div>
         <div className='hero__img'>
-          <img src={img} alt="Hero Image" />
+          <img src={img} alt="Hero" />
         </div>
       </div>
     </div>

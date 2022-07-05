@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { brandData, footerListData, iconsData } from '../DummyData'
+import { brandData, footerListData } from '../DummyData'
 
 function Footer() {
   return (

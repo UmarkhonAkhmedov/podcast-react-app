@@ -1,6 +1,6 @@
 import React from 'react'
 import HostHero from '../components/Host/HostHero'
-import Available from '../components/main/Available'
+import Available from '../components/Main/Available'
 
 function Host() {
   return (

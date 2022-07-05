@@ -1,6 +1,6 @@
 import React from 'react'
-import Available from '../components/main/Available'
-import Hero from '../components/main/Hero'
+import Available from '../components/Main/Available'
+import Hero from '../components/Main/Hero'
 
 function Home() {
   return (

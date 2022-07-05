@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Routes, Route, Link, useLocation } from "react-router-dom";
-import Footer from './components/main/Footer';
-import Navbar from './components/main/Navbar';
-import Sponsors from './components/main/Sponsors';
+import React from 'react';
+import { Routes, Route, useLocation } from "react-router-dom";
+import Footer from './components/Main/Footer';
+import Navbar from './components/Main/Navbar';
+import Sponsors from './components/Main/Sponsors';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';

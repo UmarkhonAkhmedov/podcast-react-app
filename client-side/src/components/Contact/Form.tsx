@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../basic/Button'
+import Button from '../Basic/Button'
 
 function Form() {
   return (
