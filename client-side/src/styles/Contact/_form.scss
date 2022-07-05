@@ -1,0 +1,25 @@
+.form {
+  max-width: 600px;
+  width: 100%;
+
+  span {
+    display: block;
+    margin: 16px 0 40px 0;
+    color: #503AE7;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+  &__inputs {
+
+    input {
+      margin-bottom: 15px;
+    }
+
+    &--message {
+      height: 100px;
+      resize: none;
+      margin-bottom: 30px;
+    }
+  }
+}
