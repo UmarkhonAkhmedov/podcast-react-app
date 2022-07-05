@@ -4,8 +4,15 @@
   &__background {
     background-image: url("../../../../public/Img/Host/contact__pulse.svg");
     background-repeat: no-repeat;
-    background-position: right calc(50% - 472px) bottom -20px;
+    background-position: right calc(0% - 0px) bottom -6%;
     background-size: 30% 30%;
+    
+    @media screen and (max-width:768px){
+      background-position: right calc(0% - 0px) bottom -12%;
+    }
+    @media screen and (max-width:500px){
+      background-position: right calc(0% - 0px) bottom -14%;
+    }
   }
 }
 
@@ -18,10 +25,21 @@
   max-width: 400px;
   color: #F4F2FF;
   margin-left: 100px;
+  @media screen and (max-width:768px){
+    margin-left: 30px;
+  }
+  @media screen and (max-width:500px){
+    margin-left: 0px;
+    width: 100%;
+  }
 
   p {
     margin: 30px 0;
     line-height: 24px;
+    @media screen and (max-width:500px){
+      margin: 15px 0;
+      line-height: 20px;
+    }
   }
 
   div {
@@ -34,6 +52,9 @@
     &:hover {
       background-color: #F4F2FF;
       color: #14142B;
+    }
+    @media screen and (max-width:500px){
+      padding: 10px 20px;
     }
   }
 }
