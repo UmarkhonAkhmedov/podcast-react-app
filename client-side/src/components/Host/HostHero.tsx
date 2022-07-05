@@ -8,7 +8,7 @@ function HostHero() {
       <div className='container'>
         <div className='hostHero'>
           <div className='hostHero__img'>
-            <img src="/Img/Host/hero__main.svg" alt="Podcast Image" />
+            <img src="/Img/Host/hero__main.svg" alt="Podcast" />
           </div>
           <div className='hostHero__info'>
             <h6>About The Host</h6>
