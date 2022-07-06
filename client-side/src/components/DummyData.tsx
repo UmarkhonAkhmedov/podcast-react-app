@@ -70,3 +70,34 @@ export const resultsData = [
     text: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. "
   }
 ]
+
+export const teamData = [
+  {
+    id: 1,
+    img: "one",
+    name: "Jerome Bell",
+    job: "Founder & CEO",
+    socialProfiles: ["facebook", "twitter", "linkedin"]
+  },
+  {
+    id: 2,
+    img: "two",
+    name: "Robert Mill",
+    job: "Cofounder",
+    socialProfiles: ["facebook", "twitter", "linkedin"]
+  },
+  {
+    id: 3,
+    img: "three",
+    name: "Rehab Walls",
+    job: "Producer",
+    socialProfiles: ["facebook", "twitter", "linkedin"]
+  },
+  {
+    id: 4,
+    img: "four",
+    name: "Steve Winston",
+    job: "Editor",
+    socialProfiles: ["facebook", "twitter", "linkedin"]
+  },
+]
