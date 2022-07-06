@@ -49,3 +49,24 @@ export const originData = [
     text: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus cras lacus tellus morbi viverra suspendisse ornare. Sit volutpat, volutpat ut netus malesuada enim penatibus non aliquet.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget condimentum enim libero ultricies amet odio fringilla. Ut nibh morbi augue porta aliquet commodo. Fermentum auctor lacus eget in ut integer viverra sed. Penatibus tortor consequat, habitasse non nisl.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget condimentum enim libero ultricies ame"]
   }
 ]
+
+export const resultsData = [
+  {
+    id: 1,
+    img: "podcast",
+    heading: "500+ Podcast",
+    text: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. "
+  },
+  {
+    id: 2,
+    img: "view",
+    heading: "24M Views",
+    text: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. "
+  },
+  {
+    id: 3,
+    img: "subs",
+    heading: "600k Subs",
+    text: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. "
+  }
+]
