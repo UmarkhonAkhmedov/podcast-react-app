@@ -1,0 +1,48 @@
+.site--origin {
+  background-image: 
+  url("../../../public/Img/Host/info__green.svg"),
+  url("../../../public/Img/Host/info__small--purple.svg"),
+  url("../../../public/Img/Host/info__main--purple.svg");
+  background-repeat: no-repeat;
+  background-position: 
+  left calc(5%) top 0,
+  left calc(10%) bottom 20px,
+  right calc(10%) bottom 20px;
+}
+
+.origin {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+
+  @media screen and (max-width:768px){
+    padding: 30px 0;
+  }
+  @media screen and (max-width:500px){
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__item {
+    width: 40%;
+    @media screen and (max-width:768px){
+      width: 45%;
+    }
+    @media screen and (max-width:500px){
+      width: 90%;
+      margin: 15px auto 15px auto;
+    }
+
+    h2 {
+      max-width: 350px;
+      width: 100%;
+    }
+
+    p {
+      margin-top: 30px;
+      @media screen and (max-width:768px){
+        margin-top: 15px;
+      }
+    }
+  }
+}
