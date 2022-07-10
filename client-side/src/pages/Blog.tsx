@@ -1,8 +1,12 @@
 import React from 'react'
+import Recent from '../components/Main/Recent'
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <div>
+      <Featured />
+      <Recent />
+    </div>
   )
 }
 
