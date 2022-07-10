@@ -3,6 +3,7 @@ import Maker from '../components/Home/Maker'
 import Origins from '../components/Home/Origins'
 import Available from '../components/Main/Available'
 import Hero from '../components/Main/Hero'
+import Recent from '../components/Main/Recent'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Available />
       <Maker />
       <Origins />
+      <Recent />
     </div>
   )
 }
